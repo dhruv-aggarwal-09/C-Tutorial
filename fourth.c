@@ -47,6 +47,14 @@ int main(){
 
 
 // 6. WAP to input radius and height of a cylinder and calculate volume of cylinder. Volume=3.14*r*r*h
-    
+    float radius;
+    int height;
+
+    printf("Enter the radius: ");
+    scanf("%f", &radius);
+    printf("Enter the height: ");
+    scanf("%d", &height);
+
+    printf("Volume of cylinder is: %.2f", 3.14*radius*radius*height);
     return 0;
 }
